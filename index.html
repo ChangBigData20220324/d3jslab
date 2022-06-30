@@ -5,90 +5,64 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="長條圖_動態/style.css" />
+		<link rel="stylesheet" href="動態_散點圖/style.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
-		<!-- Wrapper-->
+		<!-- Wrapper-->1
 			<div id="wrapper">
 
 				<!-- Nav -->
 					<nav id="nav">
 						<a href="#" class="icon solid fa-home"><span>Home</span></a>
-						<a href="#work" class="icon solid fa-folder"><span>Work</span></a>
-						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
-						<a href="https://twitter.com/ajlkn" class="icon brands fa-twitter"><span>Twitter</span></a>
+						<!-- <a href="#work" class="icon solid fa-folder"><span>Work</span></a> -->
+						<!-- <a href="#" class="icon solid fa-home"><span>Home</span></a> -->
+						<!-- <a href="#work" class="icon solid fa-folder"><span>Work</span></a> -->
+						<!-- <a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a> -->
+						<!-- <a href="https://twitter.com/ajlkn" class="icon brands fa-twitter"><span>Twitter</span></a> -->
 					</nav>
 
 				<!-- Main -->
 					<div id="main">
 
 						<!-- Me -->
-							<article id="home" class="panel intro">
-								<header>
-									<h1>Jane Doe</h1>
-									<p>Senior Astral Projectionist</p>
-								</header>
-								<a href="#work" class="jumplink pic">
+								
+								<div class="bar"><h1>動態_長條圖</h1></div>	
+								<div class="bar-chart-container"></div>				
+								<div class="controls">	
+								<button data-name="revenue">Revenue</button>
+								<button data-name="budget">Budget</button>
+								<button data-name="popularity">Popularity</button>
+								</div>
+
+								<div class="scatter1"><h1>動態_散佈圖</h1></div>	
+								<div class="scatter-plot-container"></div>
+								<div class="selected-container">
+								<div class="selected-header">Selected Element</div>
+								<div class="selected-body"></div>
+								</div>
+															<!-- <header> -->
+									<!-- <h2>動態_長條圖</h2> -->
+									<!-- <h1>Jane Doe</h1>
+									<p>Senior Astral Projectionist</p> -->
+								<!-- </header> -->
+								<!-- <a href="#work" class="jumplink pic">
 									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
 									<img src="images/me.jpg" alt="" />
-								</a>
-							</article>
+								</a> -->
+							
 
 						<!-- Work -->
-							<article id="work" class="panel">
-								<header>
-									<h2>Work</h2>
-								</header>
-								<p>
-									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-									luctus elit eget interdum.
-								</p>
-								<section>
-									<div class="row">
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic08.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic09.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic10.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic11.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
-										</div>
-									</div>
-								</section>
-							</article>
+						
+								 <!-- <header> 
+									<h2>動態_散佈圖</h2>
+								</header> -->
+							 
 
 						<!-- Contact -->
-							<article id="contact" class="panel">
+							<!-- <article id="contact" class="panel">
 								<header>
 									<h2>Contact Me</h2>
 								</header>
@@ -113,16 +87,16 @@
 										</div>
 									</div>
 								</form>
-							</article>
+							</article> -->
 
 					</div>
 
 				<!-- Footer -->
-					<div id="footer">
+					<!-- <div id="footer">
 						<ul class="copyright">
 							<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
-					</div>
+					</div> -->
 
 			</div>
 
@@ -132,6 +106,10 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			
+			<script src="//unpkg.com/d3"></script>
+			<script src="長條圖_動態/main.js"></script>
+			<script src="動態_散點圖/main.js"></script>
 
 	</body>
 </html>
