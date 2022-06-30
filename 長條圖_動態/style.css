@@ -1,0 +1,18 @@
+svg{
+    border: 1px solid #ccc;
+    }
+    .axis .domain{
+    stroke:none;
+    }
+    .x line{
+    stroke: white;
+    }
+
+.controls{
+    height: 3em;
+    
+}
+.bar{
+    /* block-size: 2px,2px; */
+    padding: 3em;
+}
